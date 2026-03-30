@@ -49,7 +49,7 @@ signinbtn.addEventListener('click', (e) => {
     return;
   }
 
-  const foundUser = users.find(
+  const foundUser = users?.find(
     (person) => person.email === email.value && person.password === pass.value,
   );
 
