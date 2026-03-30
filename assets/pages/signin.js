@@ -53,16 +53,6 @@ signinbtn.addEventListener('click', (e) => {
     (person) => person.email === email.value && person.password === pass.value,
   );
 
-  if (!foundUser) {
-    foundUser = {
-      id: 'USR-8e7b6c4d',
-      name: 'Mahmoud Mostafa',
-      email: 'melshahat799@gmail.com',
-      password: 'mahmoud2210',
-      role: 'admin',
-    };
-  }
-
   if (foundUser) {
     valid = 1;
     showNotification(
