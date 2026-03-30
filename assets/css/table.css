@@ -1,0 +1,137 @@
+:root {
+  --success: #10b981;
+  --warning: #f59e0b;
+  --gray-400: #9ca3af;
+}
+
+table {
+  margin-bottom: 0 !important;
+}
+
+.table-footer {
+  margin-top: 20px !important;
+}
+
+.suppliers-section {
+  background-color: #f3f4f6;
+}
+.section-header h1 {
+  color: #1f2937;
+}
+.section-header p {
+  color: #6b7280;
+  font-size: 18px;
+}
+.table-container,
+.filter-container {
+  background-color: #fff;
+}
+#addSupplier {
+  background-color: #1e3a8a;
+  color: #fff;
+}
+button.disabled i {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+  color: #6b7280 !important;
+}
+
+table td {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#tableHead th:first-child,
+#tableBody td:first-child {
+  display: none;
+}
+
+.table-footer #tableInfo {
+  color: #6b7280;
+}
+
+.pagination #prevBtn,
+.pagination #nextBtn {
+  width: 30px;
+  height: 30px;
+  background-color: #f3f4f6;
+  border: 1px solid #f3f4f6;
+  color: #6b7280;
+}
+.pagination #pageNumber {
+  width: 30px;
+  height: 30px;
+  background-color: #1e3a8a;
+  color: #fff;
+}
+
+.status-received {
+  border-radius: 10px;
+  padding-left: 8px;
+  width: 85px;
+  color: white;
+  background-color: var(--success);
+}
+
+.status-pending {
+  border-radius: 10px;
+  padding-left: 8px;
+  width: 85px;
+  color: white;
+  background-color: var(--warning);
+}
+
+/* Order Details Styling */
+.order-details h6,
+.order-details span {
+  color: var(--gray-400);
+}
+.order-details th {
+  font-weight: normal;
+}
+.order-details tr:first-child {
+  background-color: white;
+}
+
+.order-details .tq,
+.order-details .tq-t {
+  color: var(--gray-400);
+}
+
+/* Products Styling */
+
+/* Filter Box Style */
+.filter-container {
+  border: 1px solid #e3e6ea;
+}
+
+/* Clear Filter Button */
+.btn-clear-filter {
+  background-color: #f8d7da;
+  color: #842029;
+  font-weight: 600;
+  border: 1px solid #f5c2c7;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+.btn-clear-filter:hover {
+  background-color: #f1b6bc;
+  color: #6a1a22;
+}
+
+/* Improve Input Group appearance */
+.input-group-text {
+  border-right: none !important;
+}
+
+.form-control {
+  border-left: none !important;
+}
+
+.input-group .form-control:focus {
+  box-shadow: none !important;
+  border-color: #86b7fe !important;
+}

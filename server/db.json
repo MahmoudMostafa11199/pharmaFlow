@@ -1,0 +1,3657 @@
+{
+  "categories": [
+    {
+      "id": "CAT-001",
+      "name": "Tablets",
+      "description": "Solid dosage forms intended for oral administration."
+    },
+    {
+      "id": "CAT-002",
+      "name": "Liquids",
+      "description": "Liquid formulations including syrups, solutions, and drops."
+    },
+    {
+      "id": "CAT-003",
+      "name": "Creams",
+      "description": "Topical preparations including creams, gels, and ointments."
+    },
+    {
+      "id": "CAT-004",
+      "name": "Sprays",
+      "description": "Aerosol or pump spray formulations for topical or oral use."
+    },
+    {
+      "id": "CAT-005",
+      "name": "Injections",
+      "description": "Sterile solutions or suspensions for parenteral administration."
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "SUP-001",
+      "supplier_name": "Cleopatra Pharma",
+      "contact_name": "Ahmed Fouad",
+      "contact_email": "ahmed.fouad@cleopatrapharma.com",
+      "contact_phone": "+201201492186",
+      "address": "284 Tahrir St, New Cairo, Luxor, Egypt"
+    },
+    {
+      "id": "SUP-002",
+      "supplier_name": "DeltaMed",
+      "contact_name": "Rana Fathy",
+      "contact_email": "rana.fathy@deltamed.com",
+      "contact_phone": "+20-101-188-8104",
+      "address": "224 Tahrir St, Mohandessin, Giza, Egypt"
+    },
+    {
+      "id": "SUP-003",
+      "supplier_name": "RedSea Pharma",
+      "contact_name": "Heba El-Sayed",
+      "contact_email": "heba.el-sayed@redseapharma.com",
+      "contact_phone": "+20-126-679-3028",
+      "address": "124 El-Horreya Ave, Nasr City, Luxor, Egypt"
+    },
+    {
+      "id": "SUP-004",
+      "supplier_name": "Shorouk Health",
+      "contact_name": "Mona El-Sayed",
+      "contact_email": "mona.el-sayed@shoroukhealth.com",
+      "contact_phone": "+20-107-147-3181",
+      "address": "158 Abbas El Akkad St, Dokki, Aswan, Egypt"
+    },
+    {
+      "id": "SUP-005",
+      "supplier_name": "CairoCare",
+      "contact_name": "Hagar Saad",
+      "contact_email": "hagar.saad@cairocare.com",
+      "contact_phone": "+20-117-935-3961",
+      "address": "62 El-Horreya Ave, Mansoura, Mansoura, Egypt"
+    },
+    {
+      "id": "SUP-006",
+      "supplier_name": "Lotfy Medical",
+      "contact_name": "Khaled Aziz",
+      "contact_email": "khaled.aziz@lotfymedical.com",
+      "contact_phone": "+20-122-164-1976",
+      "address": "115 El-Thawra St, Alexandria, Tanta, Egypt"
+    },
+    {
+      "id": "SUP-007",
+      "supplier_name": "Cleopatra Pharma",
+      "contact_name": "Aya Samir",
+      "contact_email": "aya.samir@cleopatrapharma.com",
+      "contact_phone": "+20-129-564-6924",
+      "address": "163 Makram Ebeid St, Dokki, Mansoura, Egypt"
+    },
+    {
+      "id": "SUP-008",
+      "supplier_name": "Pyramid Health",
+      "contact_name": "Hagar Saad",
+      "contact_email": "hagar.saad@pyramidhealth.com",
+      "contact_phone": "+20-116-606-6627",
+      "address": "239 Mostafa El-Nahas St, Mansoura, Giza, Egypt"
+    },
+    {
+      "id": "SUP-009",
+      "supplier_name": "CairoCare",
+      "contact_name": "Rana Saeed",
+      "contact_email": "rana.saeed@cairocare.com",
+      "contact_phone": "+20-105-875-6604",
+      "address": "87 El-Thawra St, Zayed, Cairo, Egypt"
+    },
+    {
+      "id": "SUP-010",
+      "supplier_name": "Pyramid Health",
+      "contact_name": "Dina Samir",
+      "contact_email": "dina.samir@pyramidhealth.com",
+      "contact_phone": "+20-125-996-6140",
+      "address": "184 Salah Salem Rd, Mansoura, Zagazig, Egypt"
+    },
+    {
+      "id": "SUP-011",
+      "supplier_name": "Shorouk Health",
+      "contact_name": "Aya Abdelrahman",
+      "contact_email": "aya.abdelrahman@shoroukhealth.com",
+      "contact_phone": "+20-126-195-5422",
+      "address": "252 Tahrir St, Nasr City, Ismailia, Egypt"
+    },
+    {
+      "id": "SUP-012",
+      "supplier_name": "Shorouk Health",
+      "contact_name": "Aya Saad",
+      "contact_email": "aya.saad@shoroukhealth.com",
+      "contact_phone": "+20-122-495-6685",
+      "address": "21 El-Thawra St, New Cairo, Alexandria, Egypt"
+    },
+    {
+      "id": "SUP-013",
+      "supplier_name": "Obour Med",
+      "contact_name": "Khaled Naguib",
+      "contact_email": "khaled.naguib@obourmed.com",
+      "contact_phone": "+20-101-323-5709",
+      "address": "76 Makram Ebeid St, Zayed, Tanta, Egypt"
+    },
+    {
+      "id": "SUP-014",
+      "supplier_name": "Upper Egypt Med",
+      "contact_name": "Hossam Ali",
+      "contact_email": "hossam.ali@upperegyptmed.com",
+      "contact_phone": "+20-114-511-5552",
+      "address": "80 Abbas El Akkad St, Alexandria, Ismailia, Egypt"
+    },
+    {
+      "id": "SUP-015",
+      "supplier_name": "GizaPharm",
+      "contact_name": "Salma Fouad",
+      "contact_email": "salma.fouad@gizapharm.com",
+      "contact_phone": "+20-107-254-2359",
+      "address": "100 October Rd, Mohandessin, Mansoura, Egypt"
+    },
+    {
+      "id": "SUP-016",
+      "supplier_name": "NilePharma",
+      "contact_name": "Nadine Samir",
+      "contact_email": "nadine.samir@nilepharma.com",
+      "contact_phone": "+20-105-369-5619",
+      "address": "12 October Rd, Zayed, Aswan, Egypt"
+    },
+    {
+      "id": "SUP-017",
+      "supplier_name": "Lotfy Medical",
+      "contact_name": "Nourhan Samir",
+      "contact_email": "nourhan.samir@lotfymedical.com",
+      "contact_phone": "+20-110-228-9445",
+      "address": "37 El-Thawra St, Alexandria, Tanta, Egypt"
+    },
+    {
+      "id": "SUP-018",
+      "supplier_name": "Heliopolis Med",
+      "contact_name": "Mona Fouad",
+      "contact_email": "mona.fouad@heliopolismed.com",
+      "contact_phone": "+20-103-593-7560",
+      "address": "41 Makram Ebeid St, Heliopolis, Mansoura, Egypt"
+    },
+    {
+      "id": "SUP-019",
+      "supplier_name": "El Nasr Pharma",
+      "contact_name": "Youssef Ibrahim",
+      "contact_email": "youssef.ibrahim@elnasrpharma.com",
+      "contact_phone": "+20-110-715-1861",
+      "address": "62 Corniche Rd, Mansoura, Alexandria, Egypt"
+    },
+    {
+      "id": "SUP-020",
+      "supplier_name": "RedSea Pharma",
+      "contact_name": "Khaled Lotfy",
+      "contact_email": "khaled.lotfy@redseapharma.com",
+      "contact_phone": "+20-119-126-2152",
+      "address": "116 El-Horreya Ave, Zayed, Alexandria, Egypt"
+    },
+    {
+      "id": "SUP-021",
+      "supplier_name": "Horus Labs",
+      "contact_name": "Salma Ragab",
+      "contact_email": "salma.ragab@horuslabs.com",
+      "contact_phone": "+20-111-585-3012",
+      "address": "69 El-Thawra St, 6th of October, Zagazig, Egypt"
+    },
+    {
+      "id": "SUP-022",
+      "supplier_name": "Upper Egypt Med",
+      "contact_name": "Mahmoud Abdelrahman",
+      "contact_email": "mahmoud.abdelrahman@upperegyptmed.com",
+      "contact_phone": "+20-104-204-6613",
+      "address": "145 El-Thawra St, Dokki, Aswan, Egypt"
+    },
+    {
+      "id": "SUP-023",
+      "supplier_name": "NilePharma",
+      "contact_name": "Mostafa Hafez",
+      "contact_email": "mostafa.hafez@nilepharma.com",
+      "contact_phone": "+20-111-250-9899",
+      "address": "23 Gamal Abdel Nasser St, Maadi, Giza, Egypt"
+    },
+    {
+      "id": "SUP-024",
+      "supplier_name": "Horus Labs",
+      "contact_name": "Rana Lotfy",
+      "contact_email": "rana.lotfy@horuslabs.com",
+      "contact_phone": "+20-129-271-6827",
+      "address": "124 Gamal Abdel Nasser St, Alexandria, Aswan, Egypt"
+    },
+    {
+      "id": "SUP-025",
+      "supplier_name": "Cleopatra Pharma",
+      "contact_name": "Walid Ragab",
+      "contact_email": "walid.ragab@cleopatrapharma.com",
+      "contact_phone": "+20-125-907-4197",
+      "address": "132 Abbas El Akkad St, Mohandessin, Mansoura, Egypt"
+    },
+    {
+      "id": "SUP-026",
+      "supplier_name": "Canal Med",
+      "contact_name": "Nadine Lotfy",
+      "contact_email": "nadine.lotfy@canalmed.com",
+      "contact_phone": "+20-123-129-1457",
+      "address": "153 El-Thawra St, Maadi, Mansoura, Egypt"
+    },
+    {
+      "id": "SUP-027",
+      "supplier_name": "Obour Med",
+      "contact_name": "Salma Elbaz",
+      "contact_email": "salma.elbaz@obourmed.com",
+      "contact_phone": "+20-125-840-6726",
+      "address": "196 Tahrir St, Mohandessin, Giza, Egypt"
+    },
+    {
+      "id": "SUP-028",
+      "supplier_name": "Sinai Pharma",
+      "contact_name": "Nadine Fathy",
+      "contact_email": "nadine.fathy@sinaipharma.com",
+      "contact_phone": "+20-110-309-8907",
+      "address": "10 El-Thawra St, New Cairo, Giza, Egypt"
+    },
+    {
+      "id": "SUP-029",
+      "supplier_name": "CairoCare",
+      "contact_name": "Mona Fathy",
+      "contact_email": "mona.fathy@cairocare.com",
+      "contact_phone": "+20-115-282-8109",
+      "address": "180 Tahrir St, Zayed, Zagazig, Egypt"
+    },
+    {
+      "id": "SUP-030",
+      "supplier_name": "Heliopolis Med",
+      "contact_name": "Hossam Ali",
+      "contact_email": "hossam.ali@heliopolismed.com",
+      "contact_phone": "+20-105-230-1451",
+      "address": "87 El-Horreya Ave, 6th of October, Alexandria, Egypt"
+    },
+    {
+      "id": "SUP-031",
+      "supplier_name": "Obour Med",
+      "contact_name": "Nourhan Naguib",
+      "contact_email": "nourhan.naguib@obourmed.com",
+      "contact_phone": "+20-121-458-3554",
+      "address": "290 Gamal Abdel Nasser St, Dokki, Cairo, Egypt"
+    },
+    {
+      "id": "SUP-032",
+      "supplier_name": "NilePharma",
+      "contact_name": "Khaled Hafez",
+      "contact_email": "khaled.hafez@nilepharma.com",
+      "contact_phone": "+20-123-242-8107",
+      "address": "109 Makram Ebeid St, Nasr City, Ismailia, Egypt"
+    },
+    {
+      "id": "SUP-033",
+      "supplier_name": "LotusMed",
+      "contact_name": "Mahmoud Hafez",
+      "contact_email": "mahmoud.hafez@lotusmed.com",
+      "contact_phone": "+20-107-882-6341",
+      "address": "142 Gamal Abdel Nasser St, Zayed, Alexandria, Egypt"
+    },
+    {
+      "id": "SUP-034",
+      "supplier_name": "DeltaMed",
+      "contact_name": "Salma Elbaz",
+      "contact_email": "salma.elbaz@deltamed.com",
+      "contact_phone": "+20-121-697-9466",
+      "address": "225 Gamal Abdel Nasser St, Dokki, Aswan, Egypt"
+    },
+    {
+      "id": "SUP-035",
+      "supplier_name": "AlexBio",
+      "contact_name": "Rana Hafez",
+      "contact_email": "rana.hafez@alexbio.com",
+      "contact_phone": "+20-100-993-8211",
+      "address": "103 El-Horreya Ave, Nasr City, Alexandria, Egypt"
+    },
+    {
+      "id": "SUP-036",
+      "supplier_name": "MedSahara",
+      "contact_name": "Ahmed Naguib",
+      "contact_email": "ahmed.naguib@medsahara.com",
+      "contact_phone": "+20-119-842-2971",
+      "address": "294 Corniche Rd, New Cairo, Aswan, Egypt"
+    },
+    {
+      "id": "SUP-037",
+      "supplier_name": "Canal Med",
+      "contact_name": "Dina Naguib",
+      "contact_email": "dina.naguib@canalmed.com",
+      "contact_phone": "+20-125-895-2738",
+      "address": "296 Corniche Rd, Mohandessin, Mansoura, Egypt"
+    },
+    {
+      "id": "SUP-038",
+      "supplier_name": "Horus Labs",
+      "contact_name": "Omar Ibrahim",
+      "contact_email": "omar.ibrahim@horuslabs.com",
+      "contact_phone": "+20-116-563-1456",
+      "address": "42 El-Thawra St, New Cairo, Luxor, Egypt"
+    },
+    {
+      "id": "SUP-039",
+      "supplier_name": "Canal Med",
+      "contact_name": "Nourhan Hafez",
+      "contact_email": "nourhan.hafez@canalmed.com",
+      "contact_phone": "+20-106-809-5541",
+      "address": "241 Gamal Abdel Nasser St, Alexandria, Zagazig, Egypt"
+    },
+    {
+      "id": "SUP-041",
+      "supplier_name": "GizaPharm",
+      "contact_name": "Khaled Fouad",
+      "contact_email": "khaled.fouad@gizapharm.com",
+      "contact_phone": "+20-114-423-2188",
+      "address": "133 Abbas El Akkad St, Heliopolis, Mansoura, Egypt"
+    },
+    {
+      "id": "SUP-042",
+      "supplier_name": "EverGreen Med",
+      "contact_name": "Khaled Hassan",
+      "contact_email": "khaled.hassan@evergreenmed.com",
+      "contact_phone": "+20-122-758-6999",
+      "address": "83 Mostafa El-Nahas St, Dokki, Zagazig, Egypt"
+    },
+    {
+      "id": "SUP-043",
+      "supplier_name": "Sinai Pharma",
+      "contact_name": "Khaled Fouad",
+      "contact_email": "khaled.fouad@sinaipharma.com",
+      "contact_phone": "+20-128-598-3667",
+      "address": "124 October Rd, Zayed, Aswan, Egypt"
+    },
+    {
+      "id": "SUP-044",
+      "supplier_name": "Heliopolis Med",
+      "contact_name": "Nour Saeed",
+      "contact_email": "nour.saeed@heliopolismed.com",
+      "contact_phone": "+20-106-465-6218",
+      "address": "57 Salah Salem Rd, Nasr City, Suez, Egypt"
+    },
+    {
+      "id": "SUP-045",
+      "supplier_name": "RedSea Pharma",
+      "contact_name": "Aya Elbaz",
+      "contact_email": "aya.elbaz@redseapharma.com",
+      "contact_phone": "+20-122-118-7297",
+      "address": "179 Gamal Abdel Nasser St, Mansoura, Ismailia, Egypt"
+    },
+    {
+      "id": "SUP-046",
+      "supplier_name": "Canal Med",
+      "contact_name": "Hossam Ibrahim",
+      "contact_email": "hossam.ibrahim@canalmed.com",
+      "contact_phone": "+20-129-907-4744",
+      "address": "63 Tahrir St, Maadi, Ismailia, Egypt"
+    },
+    {
+      "id": "SUP-047",
+      "supplier_name": "DeltaMed",
+      "contact_name": "Youssef Farouk",
+      "contact_email": "youssef.farouk@deltamed.com",
+      "contact_phone": "+20-124-232-7918",
+      "address": "142 Abbas El Akkad St, Dokki, Aswan, Egypt"
+    },
+    {
+      "id": "SUP-048",
+      "supplier_name": "Canal Med",
+      "contact_name": "Hagar Naguib",
+      "contact_email": "hagar.naguib@canalmed.com",
+      "contact_phone": "+20-122-434-2465",
+      "address": "152 Corniche Rd, Dokki, Tanta, Egypt"
+    },
+    {
+      "id": "SUP-049",
+      "supplier_name": "Pyramid Health",
+      "contact_name": "Hany Khaled",
+      "contact_email": "hany.khaled@pyramidhealth.com",
+      "contact_phone": "+20-120-190-5268",
+      "address": "52 El-Horreya Ave, Mohandessin, Giza, Egypt"
+    },
+    {
+      "id": "SUP-050",
+      "supplier_name": "Horus Labs",
+      "contact_name": "Khaled Elbaz",
+      "contact_email": "khaled.elbaz@horuslabs.com",
+      "contact_phone": "+20-100-447-7844",
+      "address": "147 El-Horreya Ave, Dokki, Cairo, Egypt"
+    },
+    {
+      "id": "SUP-86d713c0",
+      "supplier_name": "Clepatra",
+      "contact_name": "Mahmoud",
+      "contact_email": "melshahat799@gmail",
+      "contact_phone": "01141316313",
+      "address": "Mansoura, Egypt"
+    }
+  ],
+  "products": [
+    {
+      "sku": "MED-003",
+      "product_name": "Artificial Tears 0.5% Eye Drops",
+      "category_id": "CAT-002",
+      "quantity": 20,
+      "reorderLevel": 15,
+      "price": 110.63,
+      "expire_date": "2027-04-21",
+      "supplier_id": "SUP-017",
+      "id": "PRD-003"
+    },
+    {
+      "id": "PRD-004",
+      "sku": "MED-004",
+      "product_name": "Paracetamol 500mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 227,
+      "reorderLevel": 15,
+      "price": 156.64,
+      "expire_date": "2028-04-06",
+      "supplier_id": "SUP-033",
+      "created_at": "2025-09-04T10:00:00Z"
+    },
+    {
+      "id": "PRD-005",
+      "sku": "MED-005",
+      "product_name": "Hydrocortisone 1% Cream",
+      "category_id": "CAT-003",
+      "quantity": 65,
+      "reorderLevel": 15,
+      "price": 200.91,
+      "expire_date": "2030-11-05",
+      "supplier_id": "SUP-028",
+      "created_at": "2025-09-05T10:00:00Z"
+    },
+    {
+      "sku": "MED-006",
+      "product_name": "Zinc 25mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 180,
+      "reorderLevel": 15,
+      "price": 99.26,
+      "expire_date": "2026-04-15",
+      "supplier_id": "SUP-015",
+      "id": "PRD-006"
+    },
+    {
+      "id": "PRD-007",
+      "sku": "MED-007",
+      "product_name": "Hydrocortisone 1% Cream",
+      "category_id": "CAT-003",
+      "quantity": 143,
+      "reorderLevel": 15,
+      "price": 296.94,
+      "expire_date": "2027-07-04",
+      "supplier_id": "SUP-009",
+      "created_at": "2025-09-07T10:00:00Z"
+    },
+    {
+      "sku": "MED-008",
+      "product_name": "Ibuprofen 400mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 0,
+      "reorderLevel": 15,
+      "price": 57.34,
+      "expire_date": "2027-09-04",
+      "supplier_id": "SUP-043",
+      "id": "PRD-008"
+    },
+    {
+      "id": "PRD-009",
+      "sku": "MED-009",
+      "product_name": "Artificial Tears 0.5% Eye Drops",
+      "category_id": "CAT-002",
+      "quantity": 153,
+      "reorderLevel": 15,
+      "price": 80.24,
+      "expire_date": "2028-11-04",
+      "supplier_id": "SUP-003",
+      "created_at": "2025-09-09T10:00:00Z"
+    },
+    {
+      "id": "PRD-010",
+      "sku": "MED-010",
+      "product_name": "Amoxicillin 250mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 128,
+      "reorderLevel": 15,
+      "price": 139.29,
+      "expire_date": "2028-09-04",
+      "supplier_id": "SUP-024",
+      "created_at": "2025-09-10T10:00:00Z"
+    },
+    {
+      "id": "PRD-011",
+      "sku": "MED-011",
+      "product_name": "Artificial Tears 0.5% Eye Drops",
+      "category_id": "CAT-002",
+      "quantity": 92,
+      "reorderLevel": 15,
+      "price": 19.99,
+      "expire_date": "2028-12-07",
+      "supplier_id": "SUP-014",
+      "created_at": "2025-09-11T10:00:00Z"
+    },
+    {
+      "id": "PRD-012",
+      "sku": "MED-012",
+      "product_name": "Amoxicillin 250mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 110,
+      "reorderLevel": 15,
+      "price": 120.67,
+      "expire_date": "2029-11-11",
+      "supplier_id": "SUP-018",
+      "created_at": "2025-09-12T10:00:00Z"
+    },
+    {
+      "id": "PRD-013",
+      "sku": "MED-013",
+      "product_name": "Clotrimazole 1% Ointment",
+      "category_id": "CAT-003",
+      "quantity": 103,
+      "reorderLevel": 15,
+      "price": 156.37,
+      "expire_date": "2027-03-25",
+      "supplier_id": "SUP-006",
+      "created_at": "2025-09-13T10:00:00Z"
+    },
+    {
+      "id": "PRD-014",
+      "sku": "MED-014",
+      "product_name": "Ibuprofen 200mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 521,
+      "reorderLevel": 15,
+      "price": 180.17,
+      "expire_date": "2029-05-29",
+      "supplier_id": "SUP-002",
+      "created_at": "2025-09-14T10:00:00Z"
+    },
+    {
+      "id": "PRD-015",
+      "sku": "MED-015",
+      "product_name": "Miconazole 2% Cream",
+      "category_id": "CAT-003",
+      "quantity": 33,
+      "reorderLevel": 15,
+      "price": 179.82,
+      "expire_date": "2030-03-02",
+      "supplier_id": "SUP-049",
+      "created_at": "2025-09-15T10:00:00Z"
+    },
+    {
+      "id": "PRD-016",
+      "sku": "MED-016",
+      "product_name": "Clotrimazole 1% Ointment",
+      "category_id": "CAT-003",
+      "quantity": 251,
+      "reorderLevel": 15,
+      "price": 104.58,
+      "expire_date": "2029-12-21",
+      "supplier_id": "SUP-010",
+      "created_at": "2025-09-16T10:00:00Z"
+    },
+    {
+      "id": "PRD-017",
+      "sku": "MED-017",
+      "product_name": "Gentamicin 0.1% Ointment",
+      "category_id": "CAT-003",
+      "quantity": 33,
+      "reorderLevel": 15,
+      "price": 249.21,
+      "expire_date": "2030-01-28",
+      "supplier_id": "SUP-041",
+      "created_at": "2025-09-17T10:00:00Z"
+    },
+    {
+      "id": "PRD-018",
+      "sku": "MED-018",
+      "product_name": "Gentamicin 0.1% Ointment",
+      "category_id": "CAT-003",
+      "quantity": 156,
+      "reorderLevel": 15,
+      "price": 228.33,
+      "expire_date": "2030-05-22",
+      "supplier_id": "SUP-002",
+      "created_at": "2025-09-18T10:00:00Z"
+    },
+    {
+      "id": "PRD-019",
+      "sku": "MED-019",
+      "product_name": "Timolol 0.5% Eye Drops",
+      "category_id": "CAT-002",
+      "quantity": 41,
+      "reorderLevel": 15,
+      "price": 19.04,
+      "expire_date": "2027-12-12",
+      "supplier_id": "SUP-041",
+      "created_at": "2025-09-19T10:00:00Z"
+    },
+    {
+      "id": "PRD-020",
+      "sku": "MED-020",
+      "product_name": "Ibuprofen 400mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 150,
+      "reorderLevel": 15,
+      "price": 171.97,
+      "expire_date": "2030-09-20",
+      "supplier_id": "SUP-002",
+      "created_at": "2025-09-20T10:00:00Z"
+    },
+    {
+      "id": "PRD-021",
+      "sku": "MED-021",
+      "product_name": "Artificial Tears 0.5% Eye Drops",
+      "category_id": "CAT-002",
+      "quantity": 185,
+      "reorderLevel": 15,
+      "price": 86.5,
+      "expire_date": "2029-10-05",
+      "supplier_id": "SUP-005",
+      "created_at": "2025-09-21T10:00:00Z"
+    },
+    {
+      "id": "PRD-022",
+      "sku": "MED-022",
+      "product_name": "Artificial Tears 0.5% Eye Drops",
+      "category_id": "CAT-002",
+      "quantity": 178,
+      "reorderLevel": 15,
+      "price": 162.54,
+      "expire_date": "2029-11-09",
+      "supplier_id": "SUP-017",
+      "created_at": "2025-09-22T10:00:00Z"
+    },
+    {
+      "id": "PRD-023",
+      "sku": "MED-023",
+      "product_name": "Miconazole 2% Cream",
+      "category_id": "CAT-003",
+      "quantity": 198,
+      "reorderLevel": 15,
+      "price": 229.37,
+      "expire_date": "2028-06-29",
+      "supplier_id": "SUP-048",
+      "created_at": "2025-09-23T10:00:00Z"
+    },
+    {
+      "id": "PRD-024",
+      "sku": "MED-024",
+      "product_name": "Zinc 25mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 112,
+      "reorderLevel": 15,
+      "price": 32.25,
+      "expire_date": "2031-01-13",
+      "supplier_id": "SUP-019",
+      "created_at": "2025-09-24T10:00:00Z"
+    },
+    {
+      "id": "PRD-025",
+      "sku": "MED-025",
+      "product_name": "Timolol 0.5% Eye Drops",
+      "category_id": "CAT-002",
+      "quantity": 19,
+      "reorderLevel": 15,
+      "price": 183.91,
+      "expire_date": "2029-01-22",
+      "supplier_id": "SUP-017",
+      "created_at": "2025-09-25T10:00:00Z"
+    },
+    {
+      "id": "PRD-026",
+      "sku": "MED-026",
+      "product_name": "Gentamicin 0.1% Ointment",
+      "category_id": "CAT-003",
+      "quantity": 167,
+      "reorderLevel": 15,
+      "price": 174.65,
+      "expire_date": "2027-04-09",
+      "supplier_id": "SUP-031",
+      "created_at": "2025-09-26T10:00:00Z"
+    },
+    {
+      "id": "PRD-027",
+      "sku": "MED-027",
+      "product_name": "Zinc 25mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 187,
+      "reorderLevel": 15,
+      "price": 38.86,
+      "expire_date": "2028-06-02",
+      "supplier_id": "SUP-044",
+      "created_at": "2025-09-27T10:00:00Z"
+    },
+    {
+      "id": "PRD-028",
+      "sku": "MED-028",
+      "product_name": "Miconazole 2% Cream",
+      "category_id": "CAT-003",
+      "quantity": 130,
+      "reorderLevel": 15,
+      "price": 145.11,
+      "expire_date": "2027-11-12",
+      "supplier_id": "SUP-036",
+      "created_at": "2025-09-28T10:00:00Z"
+    },
+    {
+      "id": "PRD-029",
+      "sku": "MED-029",
+      "product_name": "Miconazole 2% Cream",
+      "category_id": "CAT-003",
+      "quantity": 136,
+      "reorderLevel": 15,
+      "price": 15.08,
+      "expire_date": "2029-10-09",
+      "supplier_id": "SUP-005",
+      "created_at": "2025-09-29T10:00:00Z"
+    },
+    {
+      "id": "PRD-030",
+      "sku": "MED-030",
+      "product_name": "Zinc 25mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 109,
+      "reorderLevel": 15,
+      "price": 70.85,
+      "expire_date": "2028-05-19",
+      "supplier_id": "SUP-005",
+      "created_at": "2025-09-30T10:00:00Z"
+    },
+    {
+      "id": "PRD-031",
+      "sku": "MED-031",
+      "product_name": "Ibuprofen 200mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 211,
+      "reorderLevel": 15,
+      "price": 161.98,
+      "expire_date": "2029-03-20",
+      "supplier_id": "SUP-009",
+      "created_at": "2025-10-01T10:00:00Z"
+    },
+    {
+      "id": "PRD-032",
+      "sku": "MED-032",
+      "product_name": "Clotrimazole 1% Ointment",
+      "category_id": "CAT-003",
+      "quantity": 45,
+      "reorderLevel": 15,
+      "price": 213.97,
+      "expire_date": "2028-06-30",
+      "supplier_id": "SUP-032",
+      "created_at": "2025-10-02T10:00:00Z"
+    },
+    {
+      "id": "PRD-033",
+      "sku": "MED-033",
+      "product_name": "Diclofenac 1% Gel",
+      "category_id": "CAT-003",
+      "quantity": 75,
+      "reorderLevel": 15,
+      "price": 11.04,
+      "expire_date": "2029-12-15",
+      "supplier_id": "SUP-044",
+      "created_at": "2025-10-03T10:00:00Z"
+    },
+    {
+      "id": "PRD-034",
+      "sku": "MED-034",
+      "product_name": "Diclofenac 1% Gel",
+      "category_id": "CAT-003",
+      "quantity": 222,
+      "reorderLevel": 15,
+      "price": 50.81,
+      "expire_date": "2029-02-16",
+      "supplier_id": "SUP-025",
+      "created_at": "2025-10-04T10:00:00Z"
+    },
+    {
+      "id": "PRD-035",
+      "sku": "MED-035",
+      "product_name": "Ibuprofen 400mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 33,
+      "reorderLevel": 15,
+      "price": 104.12,
+      "expire_date": "2029-02-04",
+      "supplier_id": "SUP-026",
+      "created_at": "2025-10-05T10:00:00Z"
+    },
+    {
+      "id": "PRD-036",
+      "sku": "MED-036",
+      "product_name": "Hydrocortisone 1% Cream",
+      "category_id": "CAT-003",
+      "quantity": 201,
+      "reorderLevel": 15,
+      "price": 94.05,
+      "expire_date": "2029-04-15",
+      "supplier_id": "SUP-005",
+      "created_at": "2025-10-06T10:00:00Z"
+    },
+    {
+      "id": "PRD-037",
+      "sku": "MED-037",
+      "product_name": "Diclofenac 1% Gel",
+      "category_id": "CAT-003",
+      "quantity": 104,
+      "reorderLevel": 15,
+      "price": 278.37,
+      "expire_date": "2028-09-28",
+      "supplier_id": "SUP-004",
+      "created_at": "2025-10-07T10:00:00Z"
+    },
+    {
+      "id": "PRD-038",
+      "sku": "MED-038",
+      "product_name": "Ibuprofen 200mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 187,
+      "reorderLevel": 15,
+      "price": 92.83,
+      "expire_date": "2028-01-13",
+      "supplier_id": "SUP-016",
+      "created_at": "2025-10-08T10:00:00Z"
+    },
+    {
+      "id": "PRD-039",
+      "sku": "MED-039",
+      "product_name": "Diclofenac 1% Gel",
+      "category_id": "CAT-003",
+      "quantity": 70,
+      "reorderLevel": 15,
+      "price": 234.22,
+      "expire_date": "2029-08-07",
+      "supplier_id": "SUP-002",
+      "created_at": "2025-10-09T10:00:00Z"
+    },
+    {
+      "id": "PRD-040",
+      "sku": "MED-040",
+      "product_name": "Diclofenac 1% Gel",
+      "category_id": "CAT-003",
+      "quantity": 192,
+      "reorderLevel": 15,
+      "price": 33.37,
+      "expire_date": "2029-07-03",
+      "supplier_id": "SUP-029",
+      "created_at": "2025-10-10T10:00:00Z"
+    },
+    {
+      "id": "PRD-041",
+      "sku": "MED-041",
+      "product_name": "Amoxicillin 500mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 149,
+      "reorderLevel": 15,
+      "price": 24.2,
+      "expire_date": "2030-04-14",
+      "supplier_id": "SUP-009",
+      "created_at": "2025-10-11T10:00:00Z"
+    },
+    {
+      "id": "PRD-042",
+      "sku": "MED-042",
+      "product_name": "Zinc 25mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 359,
+      "reorderLevel": 15,
+      "price": 91.71,
+      "expire_date": "2028-08-19",
+      "supplier_id": "SUP-048",
+      "created_at": "2025-10-12T10:00:00Z"
+    },
+    {
+      "id": "PRD-043",
+      "sku": "MED-043",
+      "product_name": "Clotrimazole 1% Ointment",
+      "category_id": "CAT-003",
+      "quantity": 115,
+      "reorderLevel": 15,
+      "price": 200.24,
+      "expire_date": "2028-11-20",
+      "supplier_id": "SUP-031",
+      "created_at": "2025-10-13T10:00:00Z"
+    },
+    {
+      "id": "PRD-044",
+      "sku": "MED-044",
+      "product_name": "Clotrimazole 1% Ointment",
+      "category_id": "CAT-003",
+      "quantity": 53,
+      "reorderLevel": 15,
+      "price": 58.53,
+      "expire_date": "2028-02-09",
+      "supplier_id": "SUP-005",
+      "created_at": "2025-10-14T10:00:00Z"
+    },
+    {
+      "id": "PRD-045",
+      "sku": "MED-045",
+      "product_name": "Artificial Tears 0.5% Eye Drops",
+      "category_id": "CAT-002",
+      "quantity": 155,
+      "reorderLevel": 15,
+      "price": 73.81,
+      "expire_date": "2029-01-24",
+      "supplier_id": "SUP-049",
+      "created_at": "2025-10-15T10:00:00Z"
+    },
+    {
+      "id": "PRD-046",
+      "sku": "MED-046",
+      "product_name": "Diclofenac 1% Gel",
+      "category_id": "CAT-003",
+      "quantity": 150,
+      "reorderLevel": 15,
+      "price": 65.8,
+      "expire_date": "2027-09-16",
+      "supplier_id": "SUP-012",
+      "created_at": "2025-10-16T10:00:00Z"
+    },
+    {
+      "id": "PRD-047",
+      "sku": "MED-047",
+      "product_name": "Artificial Tears 0.5% Eye Drops",
+      "category_id": "CAT-002",
+      "quantity": 91,
+      "reorderLevel": 15,
+      "price": 79.35,
+      "expire_date": "2028-08-25",
+      "supplier_id": "SUP-037",
+      "created_at": "2025-10-17T10:00:00Z"
+    },
+    {
+      "id": "PRD-048",
+      "sku": "MED-048",
+      "product_name": "Paracetamol 650mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 118,
+      "reorderLevel": 15,
+      "price": 130.03,
+      "expire_date": "2030-02-20",
+      "supplier_id": "SUP-014",
+      "created_at": "2025-10-18T10:00:00Z"
+    },
+    {
+      "id": "PRD-049",
+      "sku": "MED-049",
+      "product_name": "Miconazole 2% Cream",
+      "category_id": "CAT-003",
+      "quantity": 208,
+      "reorderLevel": 15,
+      "price": 28,
+      "expire_date": "2028-10-03",
+      "supplier_id": "SUP-037",
+      "created_at": "2025-10-19T10:00:00Z"
+    },
+    {
+      "id": "PRD-050",
+      "sku": "MED-050",
+      "product_name": "Amoxicillin 250mg Tablets",
+      "category_id": "CAT-001",
+      "quantity": 38,
+      "reorderLevel": 15,
+      "price": 88.6,
+      "expire_date": "2028-08-04",
+      "supplier_id": "SUP-025",
+      "created_at": "2025-10-20T10:00:00Z"
+    },
+    {
+      "sku": "TER005",
+      "product_name": "Tears",
+      "category_id": "CAT-002",
+      "quantity": 13,
+      "reorderLevel": 25,
+      "price": 300.1,
+      "expire_date": "2028-02-24",
+      "supplier_id": "SUP-014",
+      "id": "PRD-da46657f"
+    },
+    {
+      "id": "PRD-e4e88026",
+      "sku": "Tear110",
+      "product_name": "Tear",
+      "category_id": "CAT-004",
+      "quantity": 0,
+      "reorderLevel": 20,
+      "price": 100,
+      "expire_date": "2027-11-30",
+      "supplier_id": "SUP-86d713c0",
+      "created_at": "2026-03-29T23:18:28.651Z"
+    }
+  ],
+  "stock_adjustments": [
+    {
+      "id": "STK-001",
+      "product_id": "PRD-042",
+      "adjustment_type": "decrease",
+      "quantity": 8,
+      "reason": "Inventory correction",
+      "timestamp": "2025-10-07T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-002",
+      "product_id": "PRD-009",
+      "adjustment_type": "increase",
+      "quantity": 12,
+      "reason": "Initial stock import",
+      "timestamp": "2025-03-17T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-003",
+      "product_id": "PRD-038",
+      "adjustment_type": "decrease",
+      "quantity": 1,
+      "reason": "Inventory correction",
+      "timestamp": "2026-02-06T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-004",
+      "product_id": "PRD-034",
+      "adjustment_type": "decrease",
+      "quantity": 15,
+      "reason": "Inventory correction",
+      "timestamp": "2025-11-08T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-005",
+      "product_id": "PRD-015",
+      "adjustment_type": "increase",
+      "quantity": 20,
+      "reason": "Supplier delivery",
+      "timestamp": "2025-06-21T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-006",
+      "product_id": "PRD-047",
+      "adjustment_type": "decrease",
+      "quantity": 5,
+      "reason": "Inventory correction",
+      "timestamp": "2025-06-06T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-007",
+      "product_id": "PRD-001",
+      "adjustment_type": "increase",
+      "quantity": 15,
+      "reason": "Supplier delivery",
+      "timestamp": "2025-05-28T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-008",
+      "product_id": "PRD-042",
+      "adjustment_type": "decrease",
+      "quantity": 10,
+      "reason": "Customer sales",
+      "timestamp": "2025-04-29T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-009",
+      "product_id": "PRD-034",
+      "adjustment_type": "decrease",
+      "quantity": 6,
+      "reason": "Inventory correction",
+      "timestamp": "2026-01-24T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-010",
+      "product_id": "PRD-020",
+      "adjustment_type": "decrease",
+      "quantity": 4,
+      "reason": "Expired items write-off",
+      "timestamp": "2025-12-07T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-011",
+      "product_id": "PRD-017",
+      "adjustment_type": "increase",
+      "quantity": 1,
+      "reason": "Supplier delivery",
+      "timestamp": "2026-03-10T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-012",
+      "product_id": "PRD-030",
+      "adjustment_type": "decrease",
+      "quantity": 12,
+      "reason": "Customer sales",
+      "timestamp": "2025-04-19T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-013",
+      "product_id": "PRD-031",
+      "adjustment_type": "decrease",
+      "quantity": 3,
+      "reason": "Expired items write-off",
+      "timestamp": "2025-06-08T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-014",
+      "product_id": "PRD-002",
+      "adjustment_type": "decrease",
+      "quantity": 18,
+      "reason": "Inventory correction",
+      "timestamp": "2026-02-15T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-015",
+      "product_id": "PRD-013",
+      "adjustment_type": "decrease",
+      "quantity": 9,
+      "reason": "Inventory correction",
+      "timestamp": "2026-02-02T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-016",
+      "product_id": "PRD-015",
+      "adjustment_type": "decrease",
+      "quantity": 14,
+      "reason": "Inventory correction",
+      "timestamp": "2025-11-19T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-017",
+      "product_id": "PRD-003",
+      "adjustment_type": "decrease",
+      "quantity": 25,
+      "reason": "Customer sales",
+      "timestamp": "2025-09-11T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-018",
+      "product_id": "PRD-013",
+      "adjustment_type": "increase",
+      "quantity": 30,
+      "reason": "Initial stock import",
+      "timestamp": "2025-06-30T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-019",
+      "product_id": "PRD-014",
+      "adjustment_type": "decrease",
+      "quantity": 11,
+      "reason": "Inventory correction",
+      "timestamp": "2025-10-07T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-020",
+      "product_id": "PRD-015",
+      "adjustment_type": "decrease",
+      "quantity": 7,
+      "reason": "Inventory correction",
+      "timestamp": "2025-10-31T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-021",
+      "product_id": "PRD-007",
+      "adjustment_type": "decrease",
+      "quantity": 5,
+      "reason": "Expired items write-off",
+      "timestamp": "2025-05-07T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-022",
+      "product_id": "PRD-015",
+      "adjustment_type": "decrease",
+      "quantity": 12,
+      "reason": "Inventory correction",
+      "timestamp": "2025-04-09T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-023",
+      "product_id": "PRD-039",
+      "adjustment_type": "increase",
+      "quantity": 22,
+      "reason": "Supplier delivery",
+      "timestamp": "2026-02-16T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-024",
+      "product_id": "PRD-002",
+      "adjustment_type": "decrease",
+      "quantity": 8,
+      "reason": "Expired items write-off",
+      "timestamp": "2025-08-15T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-025",
+      "product_id": "PRD-046",
+      "adjustment_type": "increase",
+      "quantity": 25,
+      "reason": "Initial stock import",
+      "timestamp": "2025-08-26T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-026",
+      "product_id": "PRD-046",
+      "adjustment_type": "decrease",
+      "quantity": 4,
+      "reason": "Customer sales",
+      "timestamp": "2026-02-03T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-027",
+      "product_id": "PRD-022",
+      "adjustment_type": "increase",
+      "quantity": 18,
+      "reason": "Supplier delivery",
+      "timestamp": "2025-04-15T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-028",
+      "product_id": "PRD-003",
+      "adjustment_type": "decrease",
+      "quantity": 30,
+      "reason": "Customer sales",
+      "timestamp": "2025-09-05T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-029",
+      "product_id": "PRD-029",
+      "adjustment_type": "increase",
+      "quantity": 10,
+      "reason": "Supplier delivery",
+      "timestamp": "2026-03-14T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-030",
+      "product_id": "PRD-018",
+      "adjustment_type": "increase",
+      "quantity": 35,
+      "reason": "Initial stock import",
+      "timestamp": "2025-08-12T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-031",
+      "product_id": "PRD-036",
+      "adjustment_type": "increase",
+      "quantity": 15,
+      "reason": "Supplier delivery",
+      "timestamp": "2025-09-14T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-032",
+      "product_id": "PRD-028",
+      "adjustment_type": "increase",
+      "quantity": 13,
+      "reason": "Initial stock import",
+      "timestamp": "2025-03-19T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-033",
+      "product_id": "PRD-013",
+      "adjustment_type": "decrease",
+      "quantity": 22,
+      "reason": "Customer sales",
+      "timestamp": "2025-07-30T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-034",
+      "product_id": "PRD-021",
+      "adjustment_type": "decrease",
+      "quantity": 16,
+      "reason": "Customer sales",
+      "timestamp": "2026-02-28T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-035",
+      "product_id": "PRD-016",
+      "adjustment_type": "decrease",
+      "quantity": 11,
+      "reason": "Inventory correction",
+      "timestamp": "2025-09-04T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-036",
+      "product_id": "PRD-030",
+      "adjustment_type": "increase",
+      "quantity": 16,
+      "reason": "Initial stock import",
+      "timestamp": "2025-11-04T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-037",
+      "product_id": "PRD-048",
+      "adjustment_type": "increase",
+      "quantity": 9,
+      "reason": "Initial stock import",
+      "timestamp": "2025-09-11T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-038",
+      "product_id": "PRD-022",
+      "adjustment_type": "decrease",
+      "quantity": 12,
+      "reason": "Expired items write-off",
+      "timestamp": "2025-11-01T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-039",
+      "product_id": "PRD-018",
+      "adjustment_type": "decrease",
+      "quantity": 1,
+      "reason": "Customer sales",
+      "timestamp": "2025-05-15T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-040",
+      "product_id": "PRD-002",
+      "adjustment_type": "increase",
+      "quantity": 28,
+      "reason": "Supplier delivery",
+      "timestamp": "2025-07-15T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-041",
+      "product_id": "PRD-050",
+      "adjustment_type": "decrease",
+      "quantity": 13,
+      "reason": "Inventory correction",
+      "timestamp": "2025-08-07T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-042",
+      "product_id": "PRD-009",
+      "adjustment_type": "decrease",
+      "quantity": 6,
+      "reason": "Inventory correction",
+      "timestamp": "2026-03-11T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-043",
+      "product_id": "PRD-045",
+      "adjustment_type": "increase",
+      "quantity": 12,
+      "reason": "Supplier delivery",
+      "timestamp": "2025-09-29T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-044",
+      "product_id": "PRD-030",
+      "adjustment_type": "decrease",
+      "quantity": 21,
+      "reason": "Customer sales",
+      "timestamp": "2025-06-26T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-045",
+      "product_id": "PRD-026",
+      "adjustment_type": "increase",
+      "quantity": 11,
+      "reason": "Supplier delivery",
+      "timestamp": "2025-08-19T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-046",
+      "product_id": "PRD-042",
+      "adjustment_type": "increase",
+      "quantity": 14,
+      "reason": "Initial stock import",
+      "timestamp": "2025-06-06T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-047",
+      "product_id": "PRD-011",
+      "adjustment_type": "decrease",
+      "quantity": 5,
+      "reason": "Inventory correction",
+      "timestamp": "2026-02-07T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-048",
+      "product_id": "PRD-040",
+      "adjustment_type": "increase",
+      "quantity": 18,
+      "reason": "Initial stock import",
+      "timestamp": "2026-01-25T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-049",
+      "product_id": "PRD-032",
+      "adjustment_type": "decrease",
+      "quantity": 9,
+      "reason": "Inventory correction",
+      "timestamp": "2025-11-16T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-050",
+      "product_id": "PRD-027",
+      "adjustment_type": "decrease",
+      "quantity": 10,
+      "reason": "Inventory correction",
+      "timestamp": "2025-06-13T12:00:00Z",
+      "user": "Admin"
+    },
+    {
+      "id": "STK-1e1c26bb",
+      "product_id": "PRD-da46657f",
+      "adjustment_type": "increase",
+      "quantity": 20,
+      "reason": "aa",
+      "timestamp": "2026-03-29T23:21:26.792Z",
+      "user": "Mahmoud Mostafa"
+    }
+  ],
+  "purchase_orders": [
+    {
+      "id": "ORD-001",
+      "order_number": "PO-2026-001",
+      "supplier_id": "SUP-050",
+      "creation_date": "2025-10-16T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-005",
+          "quantity": 20,
+          "unit_price": 200
+        },
+        {
+          "product_id": "PRD-012",
+          "quantity": 15,
+          "unit_price": 120
+        }
+      ],
+      "total_quantity": 35,
+      "total_amount": 5800,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-002",
+      "order_number": "PO-2026-002",
+      "supplier_id": "SUP-024",
+      "creation_date": "2025-11-05T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-007",
+          "quantity": 25,
+          "unit_price": 295
+        },
+        {
+          "product_id": "PRD-019",
+          "quantity": 10,
+          "unit_price": 19
+        }
+      ],
+      "total_quantity": 35,
+      "total_amount": 7565,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-003",
+      "order_number": "PO-2026-003",
+      "supplier_id": "SUP-012",
+      "creation_date": "2025-11-10T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-021",
+          "quantity": 30,
+          "unit_price": 86.5
+        },
+        {
+          "product_id": "PRD-033",
+          "quantity": 20,
+          "unit_price": 11
+        }
+      ],
+      "total_quantity": 50,
+      "total_amount": 2815,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-004",
+      "order_number": "PO-2026-004",
+      "supplier_id": "SUP-038",
+      "creation_date": "2025-12-09T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-002",
+          "quantity": 12,
+          "unit_price": 98
+        },
+        {
+          "product_id": "PRD-026",
+          "quantity": 8,
+          "unit_price": 174
+        }
+      ],
+      "total_quantity": 20,
+      "total_amount": 2568,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-005",
+      "order_number": "PO-2026-005",
+      "supplier_id": "SUP-016",
+      "creation_date": "2025-06-29T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-010",
+          "quantity": 40,
+          "unit_price": 139
+        },
+        {
+          "product_id": "PRD-035",
+          "quantity": 25,
+          "unit_price": 104
+        }
+      ],
+      "total_quantity": 65,
+      "total_amount": 8160,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-006",
+      "order_number": "PO-2026-006",
+      "supplier_id": "SUP-042",
+      "creation_date": "2025-07-21T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-048",
+          "quantity": 10,
+          "unit_price": 130
+        },
+        {
+          "product_id": "PRD-049",
+          "quantity": 8,
+          "unit_price": 28
+        }
+      ],
+      "total_quantity": 18,
+      "total_amount": 1524,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-007",
+      "order_number": "PO-2026-007",
+      "supplier_id": "SUP-015",
+      "creation_date": "2025-07-29T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-006",
+          "quantity": 15,
+          "unit_price": 99
+        },
+        {
+          "product_id": "PRD-022",
+          "quantity": 10,
+          "unit_price": 162
+        }
+      ],
+      "total_quantity": 25,
+      "total_amount": 3105,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-008",
+      "order_number": "PO-2026-008",
+      "supplier_id": "SUP-015",
+      "creation_date": "2026-01-13T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-011",
+          "quantity": 20,
+          "unit_price": 20
+        },
+        {
+          "product_id": "PRD-028",
+          "quantity": 12,
+          "unit_price": 145
+        }
+      ],
+      "total_quantity": 32,
+      "total_amount": 2140,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-009",
+      "order_number": "PO-2026-009",
+      "supplier_id": "SUP-038",
+      "creation_date": "2025-12-06T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-014",
+          "quantity": 18,
+          "unit_price": 180
+        },
+        {
+          "product_id": "PRD-027",
+          "quantity": 15,
+          "unit_price": 38
+        }
+      ],
+      "total_quantity": 33,
+      "total_amount": 3810,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-010",
+      "order_number": "PO-2026-010",
+      "supplier_id": "SUP-012",
+      "creation_date": "2025-07-29T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-003",
+          "quantity": 25,
+          "unit_price": 110
+        },
+        {
+          "product_id": "PRD-018",
+          "quantity": 10,
+          "unit_price": 228
+        }
+      ],
+      "total_quantity": 35,
+      "total_amount": 5030,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-011",
+      "order_number": "PO-2026-011",
+      "supplier_id": "SUP-001",
+      "creation_date": "2026-01-20T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-004",
+          "quantity": 20,
+          "unit_price": 156
+        },
+        {
+          "product_id": "PRD-042",
+          "quantity": 8,
+          "unit_price": 91
+        }
+      ],
+      "total_quantity": 28,
+      "total_amount": 3848,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-012",
+      "order_number": "PO-2026-012",
+      "supplier_id": "SUP-022",
+      "creation_date": "2026-01-02T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-009",
+          "quantity": 22,
+          "unit_price": 80
+        },
+        {
+          "product_id": "PRD-036",
+          "quantity": 15,
+          "unit_price": 94
+        }
+      ],
+      "total_quantity": 37,
+      "total_amount": 3170
+    },
+    {
+      "id": "ORD-013",
+      "order_number": "PO-2026-013",
+      "supplier_id": "SUP-003",
+      "creation_date": "2025-05-13T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-001",
+          "quantity": 30,
+          "unit_price": 291
+        },
+        {
+          "product_id": "PRD-023",
+          "quantity": 10,
+          "unit_price": 229
+        }
+      ],
+      "total_quantity": 40,
+      "total_amount": 11020
+    },
+    {
+      "id": "ORD-014",
+      "order_number": "PO-2026-014",
+      "supplier_id": "SUP-021",
+      "creation_date": "2025-08-18T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-008",
+          "quantity": 18,
+          "unit_price": 57
+        },
+        {
+          "product_id": "PRD-039",
+          "quantity": 12,
+          "unit_price": 234
+        }
+      ],
+      "total_quantity": 30,
+      "total_amount": 3834,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-015",
+      "order_number": "PO-2026-015",
+      "supplier_id": "SUP-005",
+      "creation_date": "2025-12-01T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-013",
+          "quantity": 25,
+          "unit_price": 156
+        },
+        {
+          "product_id": "PRD-031",
+          "quantity": 20,
+          "unit_price": 162
+        }
+      ],
+      "total_quantity": 45,
+      "total_amount": 7140,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-016",
+      "order_number": "PO-2026-016",
+      "supplier_id": "SUP-031",
+      "creation_date": "2026-02-11T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-015",
+          "quantity": 12,
+          "unit_price": 179
+        },
+        {
+          "product_id": "PRD-044",
+          "quantity": 8,
+          "unit_price": 58
+        }
+      ],
+      "total_quantity": 20,
+      "total_amount": 2612,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-017",
+      "order_number": "PO-2026-017",
+      "supplier_id": "SUP-043",
+      "creation_date": "2025-06-07T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-017",
+          "quantity": 10,
+          "unit_price": 249
+        },
+        {
+          "product_id": "PRD-029",
+          "quantity": 15,
+          "unit_price": 15
+        }
+      ],
+      "total_quantity": 25,
+      "total_amount": 2715,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-018",
+      "order_number": "PO-2026-018",
+      "supplier_id": "SUP-042",
+      "creation_date": "2025-12-22T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-020",
+          "quantity": 20,
+          "unit_price": 171
+        },
+        {
+          "product_id": "PRD-045",
+          "quantity": 15,
+          "unit_price": 73
+        }
+      ],
+      "total_quantity": 35,
+      "total_amount": 4515,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-019",
+      "order_number": "PO-2026-019",
+      "supplier_id": "SUP-019",
+      "creation_date": "2025-04-08T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-016",
+          "quantity": 18,
+          "unit_price": 104
+        },
+        {
+          "product_id": "PRD-034",
+          "quantity": 12,
+          "unit_price": 50
+        }
+      ],
+      "total_quantity": 30,
+      "total_amount": 2472,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-020",
+      "order_number": "PO-2026-020",
+      "supplier_id": "SUP-020",
+      "creation_date": "2025-05-29T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-024",
+          "quantity": 15,
+          "unit_price": 32
+        },
+        {
+          "product_id": "PRD-041",
+          "quantity": 10,
+          "unit_price": 24
+        }
+      ],
+      "total_quantity": 25,
+      "total_amount": 720,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-021",
+      "order_number": "PO-2026-021",
+      "supplier_id": "SUP-050",
+      "creation_date": "2025-09-10T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-025",
+          "quantity": 8,
+          "unit_price": 183
+        },
+        {
+          "product_id": "PRD-047",
+          "quantity": 12,
+          "unit_price": 79
+        }
+      ],
+      "total_quantity": 20,
+      "total_amount": 2412
+    },
+    {
+      "id": "ORD-022",
+      "order_number": "PO-2026-022",
+      "supplier_id": "SUP-014",
+      "creation_date": "2026-03-12T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-030",
+          "quantity": 10,
+          "unit_price": 70
+        },
+        {
+          "product_id": "PRD-050",
+          "quantity": 15,
+          "unit_price": 88
+        }
+      ],
+      "total_quantity": 25,
+      "total_amount": 2020,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-023",
+      "order_number": "PO-2026-023",
+      "supplier_id": "SUP-008",
+      "creation_date": "2026-01-28T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-032",
+          "quantity": 12,
+          "unit_price": 213
+        },
+        {
+          "product_id": "PRD-040",
+          "quantity": 8,
+          "unit_price": 33
+        }
+      ],
+      "total_quantity": 20,
+      "total_amount": 2820,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-024",
+      "order_number": "PO-2026-024",
+      "supplier_id": "SUP-030",
+      "creation_date": "2025-12-22T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-037",
+          "quantity": 10,
+          "unit_price": 278
+        },
+        {
+          "product_id": "PRD-046",
+          "quantity": 5,
+          "unit_price": 65
+        }
+      ],
+      "total_quantity": 15,
+      "total_amount": 3105
+    },
+    {
+      "id": "ORD-025",
+      "order_number": "PO-2026-025",
+      "supplier_id": "SUP-010",
+      "creation_date": "2025-04-21T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-038",
+          "quantity": 18,
+          "unit_price": 92
+        },
+        {
+          "product_id": "PRD-043",
+          "quantity": 12,
+          "unit_price": 200
+        }
+      ],
+      "total_quantity": 30,
+      "total_amount": 4056,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-026",
+      "order_number": "PO-2026-026",
+      "supplier_id": "SUP-024",
+      "creation_date": "2025-06-30T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-001",
+          "quantity": 12,
+          "unit_price": 291
+        },
+        {
+          "product_id": "PRD-009",
+          "quantity": 8,
+          "unit_price": 80
+        }
+      ],
+      "total_quantity": 20,
+      "total_amount": 4132
+    },
+    {
+      "id": "ORD-027",
+      "order_number": "PO-2026-027",
+      "supplier_id": "SUP-011",
+      "creation_date": "2025-06-22T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-002",
+          "quantity": 15,
+          "unit_price": 98
+        },
+        {
+          "product_id": "PRD-019",
+          "quantity": 10,
+          "unit_price": 19
+        }
+      ],
+      "total_quantity": 25,
+      "total_amount": 1660,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-028",
+      "order_number": "PO-2026-028",
+      "supplier_id": "SUP-025",
+      "creation_date": "2025-07-07T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-004",
+          "quantity": 20,
+          "unit_price": 156
+        },
+        {
+          "product_id": "PRD-027",
+          "quantity": 15,
+          "unit_price": 38
+        }
+      ],
+      "total_quantity": 35,
+      "total_amount": 3690
+    },
+    {
+      "id": "ORD-029",
+      "order_number": "PO-2026-029",
+      "supplier_id": "SUP-003",
+      "creation_date": "2025-07-11T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-006",
+          "quantity": 12,
+          "unit_price": 99
+        },
+        {
+          "product_id": "PRD-035",
+          "quantity": 8,
+          "unit_price": 104
+        }
+      ],
+      "total_quantity": 20,
+      "total_amount": 2020,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-030",
+      "order_number": "PO-2026-030",
+      "supplier_id": "SUP-041",
+      "creation_date": "2025-08-29T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-007",
+          "quantity": 15,
+          "unit_price": 295
+        },
+        {
+          "product_id": "PRD-034",
+          "quantity": 12,
+          "unit_price": 50
+        }
+      ],
+      "total_quantity": 27,
+      "total_amount": 5025,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-031",
+      "order_number": "PO-2026-031",
+      "supplier_id": "SUP-045",
+      "creation_date": "2025-12-23T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-008",
+          "quantity": 18,
+          "unit_price": 57
+        },
+        {
+          "product_id": "PRD-022",
+          "quantity": 12,
+          "unit_price": 162
+        }
+      ],
+      "total_quantity": 30,
+      "total_amount": 2970
+    },
+    {
+      "id": "ORD-032",
+      "order_number": "PO-2026-032",
+      "supplier_id": "SUP-013",
+      "creation_date": "2025-07-16T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-010",
+          "quantity": 20,
+          "unit_price": 139
+        },
+        {
+          "product_id": "PRD-041",
+          "quantity": 15,
+          "unit_price": 24
+        }
+      ],
+      "total_quantity": 35,
+      "total_amount": 3140,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-033",
+      "order_number": "PO-2026-033",
+      "supplier_id": "SUP-026",
+      "creation_date": "2025-06-23T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-014",
+          "quantity": 12,
+          "unit_price": 180
+        },
+        {
+          "product_id": "PRD-042",
+          "quantity": 8,
+          "unit_price": 91
+        }
+      ],
+      "total_quantity": 20,
+      "total_amount": 2888,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-034",
+      "order_number": "PO-2026-034",
+      "supplier_id": "SUP-010",
+      "creation_date": "2025-11-09T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-011",
+          "quantity": 10,
+          "unit_price": 20
+        },
+        {
+          "product_id": "PRD-032",
+          "quantity": 5,
+          "unit_price": 213
+        }
+      ],
+      "total_quantity": 15,
+      "total_amount": 1265,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-035",
+      "order_number": "PO-2026-035",
+      "supplier_id": "SUP-049",
+      "creation_date": "2025-04-05T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-003",
+          "quantity": 20,
+          "unit_price": 110
+        },
+        {
+          "product_id": "PRD-029",
+          "quantity": 10,
+          "unit_price": 15
+        }
+      ],
+      "total_quantity": 30,
+      "total_amount": 2350
+    },
+    {
+      "id": "ORD-036",
+      "order_number": "PO-2026-036",
+      "supplier_id": "SUP-008",
+      "creation_date": "2025-08-28T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-005",
+          "quantity": 18,
+          "unit_price": 200
+        },
+        {
+          "product_id": "PRD-037",
+          "quantity": 12,
+          "unit_price": 278
+        }
+      ],
+      "total_quantity": 30,
+      "total_amount": 6936,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-037",
+      "order_number": "PO-2026-037",
+      "supplier_id": "SUP-050",
+      "creation_date": "2025-10-10T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-013",
+          "quantity": 15,
+          "unit_price": 156
+        },
+        {
+          "product_id": "PRD-039",
+          "quantity": 10,
+          "unit_price": 234
+        }
+      ],
+      "total_quantity": 25,
+      "total_amount": 4680,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-038",
+      "order_number": "PO-2026-038",
+      "supplier_id": "SUP-028",
+      "creation_date": "2025-08-28T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-016",
+          "quantity": 20,
+          "unit_price": 104
+        },
+        {
+          "product_id": "PRD-044",
+          "quantity": 15,
+          "unit_price": 58
+        }
+      ],
+      "total_quantity": 35,
+      "total_amount": 2950,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-039",
+      "order_number": "PO-2026-039",
+      "supplier_id": "SUP-012",
+      "creation_date": "2026-03-04T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-017",
+          "quantity": 8,
+          "unit_price": 249
+        },
+        {
+          "product_id": "PRD-045",
+          "quantity": 12,
+          "unit_price": 73
+        }
+      ],
+      "total_quantity": 20,
+      "total_amount": 2868
+    },
+    {
+      "id": "ORD-040",
+      "order_number": "PO-2026-040",
+      "supplier_id": "SUP-030",
+      "creation_date": "2025-11-15T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-018",
+          "quantity": 12,
+          "unit_price": 228
+        },
+        {
+          "product_id": "PRD-046",
+          "quantity": 10,
+          "unit_price": 65
+        }
+      ],
+      "total_quantity": 22,
+      "total_amount": 3386,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-041",
+      "order_number": "PO-2026-041",
+      "supplier_id": "SUP-030",
+      "creation_date": "2025-12-14T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-021",
+          "quantity": 15,
+          "unit_price": 86
+        },
+        {
+          "product_id": "PRD-048",
+          "quantity": 10,
+          "unit_price": 130
+        }
+      ],
+      "total_quantity": 25,
+      "total_amount": 2590,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-042",
+      "order_number": "PO-2026-042",
+      "supplier_id": "SUP-009",
+      "creation_date": "2025-09-13T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-023",
+          "quantity": 12,
+          "unit_price": 229
+        },
+        {
+          "product_id": "PRD-049",
+          "quantity": 8,
+          "unit_price": 28
+        }
+      ],
+      "total_quantity": 20,
+      "total_amount": 2972,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-043",
+      "order_number": "PO-2026-043",
+      "supplier_id": "SUP-029",
+      "creation_date": "2025-06-30T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-024",
+          "quantity": 10,
+          "unit_price": 32
+        },
+        {
+          "product_id": "PRD-043",
+          "quantity": 5,
+          "unit_price": 200
+        }
+      ],
+      "total_quantity": 15,
+      "total_amount": 1320
+    },
+    {
+      "id": "ORD-044",
+      "order_number": "PO-2026-044",
+      "supplier_id": "SUP-006",
+      "creation_date": "2025-10-06T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-025",
+          "quantity": 6,
+          "unit_price": 183
+        },
+        {
+          "product_id": "PRD-050",
+          "quantity": 8,
+          "unit_price": 88
+        }
+      ],
+      "total_quantity": 14,
+      "total_amount": 1802
+    },
+    {
+      "id": "ORD-045",
+      "order_number": "PO-2026-045",
+      "supplier_id": "SUP-025",
+      "creation_date": "2025-04-15T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-026",
+          "quantity": 12,
+          "unit_price": 174
+        },
+        {
+          "product_id": "PRD-031",
+          "quantity": 8,
+          "unit_price": 162
+        }
+      ],
+      "total_quantity": 20,
+      "total_amount": 3384
+    },
+    {
+      "id": "ORD-046",
+      "order_number": "PO-2026-046",
+      "supplier_id": "SUP-040",
+      "creation_date": "2025-03-26T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-028",
+          "quantity": 10,
+          "unit_price": 145
+        },
+        {
+          "product_id": "PRD-040",
+          "quantity": 5,
+          "unit_price": 33
+        }
+      ],
+      "total_quantity": 15,
+      "total_amount": 1615
+    },
+    {
+      "id": "ORD-047",
+      "order_number": "PO-2026-047",
+      "supplier_id": "SUP-032",
+      "creation_date": "2025-10-19T12:00:00Z",
+      "status": "pending",
+      "items": [
+        {
+          "product_id": "PRD-030",
+          "quantity": 12,
+          "unit_price": 70
+        },
+        {
+          "product_id": "PRD-038",
+          "quantity": 8,
+          "unit_price": 92
+        }
+      ],
+      "total_quantity": 20,
+      "total_amount": 1576
+    },
+    {
+      "id": "ORD-048",
+      "order_number": "PO-2026-048",
+      "supplier_id": "SUP-015",
+      "creation_date": "2026-02-10T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-033",
+          "quantity": 15,
+          "unit_price": 11
+        },
+        {
+          "product_id": "PRD-047",
+          "quantity": 10,
+          "unit_price": 79
+        }
+      ],
+      "total_quantity": 25,
+      "total_amount": 955,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-049",
+      "order_number": "PO-2026-049",
+      "supplier_id": "SUP-011",
+      "creation_date": "2025-10-01T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-036",
+          "quantity": 12,
+          "unit_price": 94
+        },
+        {
+          "product_id": "PRD-002",
+          "quantity": 8,
+          "unit_price": 98
+        }
+      ],
+      "total_quantity": 20,
+      "total_amount": 1912,
+      "quantityUpdated": true
+    },
+    {
+      "id": "ORD-050",
+      "order_number": "PO-2026-050",
+      "supplier_id": "SUP-010",
+      "creation_date": "2025-11-05T12:00:00Z",
+      "status": "received",
+      "items": [
+        {
+          "product_id": "PRD-020",
+          "quantity": 15,
+          "unit_price": 171
+        },
+        {
+          "product_id": "PRD-012",
+          "quantity": 10,
+          "unit_price": 120
+        }
+      ],
+      "total_quantity": 25,
+      "total_amount": 3765,
+      "quantityUpdated": true
+    },
+    {
+      "order_number": "PO-2026-051",
+      "supplier_id": "SUP-004",
+      "creation_date": "2026-03-30",
+      "items": [
+        {
+          "product_id": "PRD-013",
+          "quantity": 3,
+          "unit_price": 156.37
+        },
+        {
+          "product_id": "PRD-010",
+          "quantity": 3,
+          "unit_price": 139.29
+        }
+      ],
+      "status": "pending",
+      "total_quantity": 6,
+      "total_amount": 886.98,
+      "id": "JIcwk9A"
+    },
+    {
+      "order_number": "PO-2026-052",
+      "supplier_id": "SUP-001",
+      "creation_date": "2026-03-17",
+      "items": [
+        {
+          "product_id": "PRD-014",
+          "quantity": 5,
+          "unit_price": 180.17
+        },
+        {
+          "product_id": "PRD-017",
+          "quantity": 2,
+          "unit_price": 249.21
+        }
+      ],
+      "status": "received",
+      "total_quantity": 7,
+      "total_amount": 1399.27,
+      "id": "vjc8A-2",
+      "quantityUpdated": true
+    }
+  ],
+  "users": [
+    {
+      "id": "USR-4c3e2a1f",
+      "name": "Mohamed AboTrika",
+      "email": "mohamed.trika@gmail.com",
+      "password": "trika2006",
+      "role": "admin"
+    },
+    {
+      "id": "USR-7b8d9c0e",
+      "name": "Mohamed Kamel",
+      "email": "mohamed.kamel@gmail.com",
+      "password": "mohamed123",
+      "role": "admin"
+    },
+    {
+      "id": "USR-2f6a4b8e",
+      "name": "Habeba Ahmed",
+      "email": "habeba.ahmed@gmail.com",
+      "password": "habeba123",
+      "role": "manager"
+    },
+    {
+      "id": "USR-1a9c3d5f",
+      "name": "Hajar Zain",
+      "email": "hajar.zain@gmail.com",
+      "password": "hajar2024",
+      "role": "super_admin"
+    },
+    {
+      "id": "USR-8e7b6c4d",
+      "name": "Mahmoud Mostafa",
+      "email": "mahmoud.mostafa@gmail.com",
+      "password": "mahmoud2210",
+      "role": "admin"
+    }
+  ],
+  "activity_log": [
+    {
+      "id": "ACT-001",
+      "action": "create",
+      "entity_type": "product",
+      "entity_id": "PRD-001",
+      "description": "Added new product: Artificial Tears 0.5% Eye Drops",
+      "user_id": "USR-4c3e2a1f",
+      "timestamp": "2026-03-10T10:15:00Z"
+    },
+    {
+      "id": "ACT-002",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-002",
+      "description": "Updated Hydrocortisone 1% Cream: changed reorder level from 10 to 15",
+      "user_id": "USR-2f6a4b8e",
+      "timestamp": "2026-03-12T14:30:00Z"
+    },
+    {
+      "id": "ACT-003",
+      "action": "delete",
+      "entity_type": "product",
+      "entity_id": "PRD-999",
+      "description": "Deleted discontinued product: Old Keyboard Model",
+      "user_id": "USR-2f6a4b8e",
+      "timestamp": "2026-03-11T14:55:00Z"
+    },
+    {
+      "id": "ACT-004",
+      "action": "create",
+      "entity_type": "category",
+      "entity_id": "CAT-005",
+      "description": "Added new category: Ointment",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-11T09:20:00Z"
+    },
+    {
+      "id": "ACT-005",
+      "action": "update",
+      "entity_type": "category",
+      "entity_id": "CAT-003",
+      "description": "Updated Eye Drops category description",
+      "user_id": "USR-1a9c3d5f",
+      "timestamp": "2026-03-13T16:45:00Z"
+    },
+    {
+      "id": "ACT-006",
+      "action": "delete",
+      "entity_type": "category",
+      "entity_id": "CAT-004",
+      "description": "Deleted obsolete category: Gel (no products)",
+      "user_id": "USR-4c3e2a1f",
+      "timestamp": "2026-03-14T11:10:00Z"
+    },
+    {
+      "id": "ACT-007",
+      "action": "create",
+      "entity_type": "supplier",
+      "entity_id": "SUP-051",
+      "description": "Added new supplier: Tech Distributors Inc.",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-12T15:10:00Z"
+    },
+    {
+      "id": "ACT-008",
+      "action": "update",
+      "entity_type": "supplier",
+      "entity_id": "SUP-050",
+      "description": "Updated Cleopatra Pharma contact email",
+      "user_id": "USR-4c3e2a1f",
+      "timestamp": "2026-03-15T09:45:00Z"
+    },
+    {
+      "id": "ACT-009",
+      "action": "delete",
+      "entity_type": "supplier",
+      "entity_id": "SUP-099",
+      "description": "Removed inactive supplier: Old Supplier",
+      "user_id": "USR-2f6a4b8e",
+      "timestamp": "2026-03-10T08:30:00Z"
+    },
+    {
+      "id": "ACT-010",
+      "action": "create",
+      "entity_type": "purchase_order",
+      "entity_id": "ORD-001",
+      "description": "Created purchase order PO-2026-001 for Cleopatra Pharma",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-12T16:20:00Z"
+    },
+    {
+      "id": "ACT-011",
+      "action": "receive",
+      "entity_type": "purchase_order",
+      "entity_id": "ORD-001",
+      "description": "Received purchase order PO-2026-001, stock increased for Artificial Tears 0.5% Eye Drops and Paracetamol 500mg Tablets",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-14T13:15:00Z"
+    },
+    {
+      "id": "ACT-012",
+      "action": "adjust",
+      "entity_type": "stock_adjustment",
+      "entity_id": "STK-001",
+      "description": "Adjusted stock for Zinc 25mg Tablets: decreased by 5 units. Reason: Inventory correction",
+      "user_id": "USR-1a9c3d5f",
+      "timestamp": "2026-03-13T10:30:00Z"
+    },
+    {
+      "id": "ACT-7890a2c2",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-005",
+      "description": "Updated Hydrocortisone 1% Cream quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:34.651Z"
+    },
+    {
+      "id": "ACT-2f6e21c1",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-012",
+      "description": "Updated Amoxicillin 250mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:34.730Z"
+    },
+    {
+      "id": "ACT-82b64d91",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-007",
+      "description": "Updated Hydrocortisone 1% Cream quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:34.858Z"
+    },
+    {
+      "id": "ACT-14998e9d",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-019",
+      "description": "Updated Timolol 0.5% Eye Drops quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:34.937Z"
+    },
+    {
+      "id": "ACT-357528c1",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-021",
+      "description": "Updated Artificial Tears 0.5% Eye Drops quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:35.060Z"
+    },
+    {
+      "id": "ACT-d982b718",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-033",
+      "description": "Updated Diclofenac 1% Gel quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:35.166Z"
+    },
+    {
+      "id": "ACT-1f251804",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-002",
+      "description": "Updated Hydrocortisone 1% Cream quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:36.406Z"
+    },
+    {
+      "id": "ACT-64405f34",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-026",
+      "description": "Updated Gentamicin 0.1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:36.475Z"
+    },
+    {
+      "id": "ACT-83804e53",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-010",
+      "description": "Updated Amoxicillin 250mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:36.599Z"
+    },
+    {
+      "id": "ACT-d36350b0",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-035",
+      "description": "Updated Ibuprofen 400mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:36.677Z"
+    },
+    {
+      "id": "ACT-c29d81d1",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-048",
+      "description": "Updated Paracetamol 650mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:36.788Z"
+    },
+    {
+      "id": "ACT-9641f73b",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-049",
+      "description": "Updated Miconazole 2% Cream quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:36.851Z"
+    },
+    {
+      "id": "ACT-bc3f1c0b",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-006",
+      "description": "Updated Zinc 25mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:36.961Z"
+    },
+    {
+      "id": "ACT-6e85bd6b",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-022",
+      "description": "Updated Artificial Tears 0.5% Eye Drops quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:37.022Z"
+    },
+    {
+      "id": "ACT-4730de3b",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-011",
+      "description": "Updated Artificial Tears 0.5% Eye Drops quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:37.147Z"
+    },
+    {
+      "id": "ACT-4953a9f2",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-028",
+      "description": "Updated Miconazole 2% Cream quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:37.225Z"
+    },
+    {
+      "id": "ACT-8abec5af",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-014",
+      "description": "Updated Ibuprofen 200mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:37.350Z"
+    },
+    {
+      "id": "ACT-e62f60c3",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-027",
+      "description": "Updated Zinc 25mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:37.431Z"
+    },
+    {
+      "id": "ACT-f2ceecbd",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-003",
+      "description": "Updated Artificial Tears 0.5% Eye Drops quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:37.554Z"
+    },
+    {
+      "id": "ACT-2dd78530",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-018",
+      "description": "Updated Gentamicin 0.1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:37.633Z"
+    },
+    {
+      "id": "ACT-2a04b026",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-004",
+      "description": "Updated Paracetamol 500mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:37.765Z"
+    },
+    {
+      "id": "ACT-28fef6e4",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-004",
+      "description": "Updated Paracetamol 500mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:38.254Z"
+    },
+    {
+      "id": "ACT-c1779e30",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-042",
+      "description": "Updated Zinc 25mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:38.318Z"
+    },
+    {
+      "id": "ACT-36002d06",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-008",
+      "description": "Updated Ibuprofen 400mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:38.443Z"
+    },
+    {
+      "id": "ACT-55c246a9",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-039",
+      "description": "Updated Diclofenac 1% Gel quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:38.522Z"
+    },
+    {
+      "id": "ACT-c081200a",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-013",
+      "description": "Updated Clotrimazole 1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:38.631Z"
+    },
+    {
+      "id": "ACT-a6c06258",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-031",
+      "description": "Updated Ibuprofen 200mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:38.716Z"
+    },
+    {
+      "id": "ACT-2866e8f6",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-015",
+      "description": "Updated Miconazole 2% Cream quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:38.851Z"
+    },
+    {
+      "id": "ACT-f4ede506",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-044",
+      "description": "Updated Clotrimazole 1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:38.932Z"
+    },
+    {
+      "id": "ACT-49fb9975",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-017",
+      "description": "Updated Gentamicin 0.1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:39.597Z"
+    },
+    {
+      "id": "ACT-b082bc3d",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-029",
+      "description": "Updated Miconazole 2% Cream quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:39.676Z"
+    },
+    {
+      "id": "ACT-0e6490ca",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-020",
+      "description": "Updated Ibuprofen 400mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:39.818Z"
+    },
+    {
+      "id": "ACT-1d1561d8",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-045",
+      "description": "Updated Artificial Tears 0.5% Eye Drops quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:39.897Z"
+    },
+    {
+      "id": "ACT-2acd62f3",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-016",
+      "description": "Updated Clotrimazole 1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:40.020Z"
+    },
+    {
+      "id": "ACT-ede1851e",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-016",
+      "description": "Updated Clotrimazole 1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:40.624Z"
+    },
+    {
+      "id": "ACT-6b7f2318",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-034",
+      "description": "Updated Diclofenac 1% Gel quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:40.688Z"
+    },
+    {
+      "id": "ACT-9aaa9130",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-024",
+      "description": "Updated Zinc 25mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:40.800Z"
+    },
+    {
+      "id": "ACT-db577c02",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-041",
+      "description": "Updated Amoxicillin 500mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:40.862Z"
+    },
+    {
+      "id": "ACT-802286ff",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-030",
+      "description": "Updated Zinc 25mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:40.987Z"
+    },
+    {
+      "id": "ACT-16643816",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-050",
+      "description": "Updated Amoxicillin 250mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:41.066Z"
+    },
+    {
+      "id": "ACT-4c1fbd7d",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-032",
+      "description": "Updated Clotrimazole 1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:41.192Z"
+    },
+    {
+      "id": "ACT-c6128e25",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-040",
+      "description": "Updated Diclofenac 1% Gel quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:41.256Z"
+    },
+    {
+      "id": "ACT-938968b5",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-038",
+      "description": "Updated Ibuprofen 200mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:41.350Z"
+    },
+    {
+      "id": "ACT-d792e52b",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-043",
+      "description": "Updated Clotrimazole 1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:41.413Z"
+    },
+    {
+      "id": "ACT-6c69801e",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-006",
+      "description": "Updated Zinc 25mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:41.524Z"
+    },
+    {
+      "id": "ACT-016f9cf0",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-006",
+      "description": "Updated Zinc 25mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:42.037Z"
+    },
+    {
+      "id": "ACT-dc6aa903",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-006",
+      "description": "Updated Zinc 25mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:42.806Z"
+    },
+    {
+      "id": "ACT-65b355c1",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-035",
+      "description": "Updated Ibuprofen 400mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:42.885Z"
+    },
+    {
+      "id": "ACT-f44b55cd",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-005",
+      "description": "Updated Hydrocortisone 1% Cream quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:43.011Z"
+    },
+    {
+      "id": "ACT-6381aaf8",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-037",
+      "description": "Updated Diclofenac 1% Gel quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:43.089Z"
+    },
+    {
+      "id": "ACT-07514086",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-013",
+      "description": "Updated Clotrimazole 1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:43.199Z"
+    },
+    {
+      "id": "ACT-64ff8186",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-039",
+      "description": "Updated Diclofenac 1% Gel quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:43.262Z"
+    },
+    {
+      "id": "ACT-0381d1a0",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-016",
+      "description": "Updated Clotrimazole 1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:43.371Z"
+    },
+    {
+      "id": "ACT-ff4cb273",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-044",
+      "description": "Updated Clotrimazole 1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:43.434Z"
+    },
+    {
+      "id": "ACT-14346547",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-018",
+      "description": "Updated Gentamicin 0.1% Ointment quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:44.036Z"
+    },
+    {
+      "id": "ACT-b1be7960",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-046",
+      "description": "Updated Diclofenac 1% Gel quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:44.115Z"
+    },
+    {
+      "id": "ACT-6cd10f46",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-021",
+      "description": "Updated Artificial Tears 0.5% Eye Drops quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:44.827Z"
+    },
+    {
+      "id": "ACT-60cea5b4",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-048",
+      "description": "Updated Paracetamol 650mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:44.920Z"
+    },
+    {
+      "id": "ACT-2b2c9474",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-023",
+      "description": "Updated Miconazole 2% Cream quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:45.010Z"
+    },
+    {
+      "id": "ACT-e59833ae",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-049",
+      "description": "Updated Miconazole 2% Cream quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:45.095Z"
+    },
+    {
+      "id": "ACT-877d4cfd",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-033",
+      "description": "Updated Diclofenac 1% Gel quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:45.222Z"
+    },
+    {
+      "id": "ACT-cfbaa063",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-047",
+      "description": "Updated Artificial Tears 0.5% Eye Drops quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:45.286Z"
+    },
+    {
+      "id": "ACT-fcc3c55f",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-036",
+      "description": "Updated Hydrocortisone 1% Cream quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:45.414Z"
+    },
+    {
+      "id": "ACT-c05f26fb",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-002",
+      "description": "Updated Hydrocortisone 1% Cream quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:45.478Z"
+    },
+    {
+      "id": "ACT-4cb771eb",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-020",
+      "description": "Updated Ibuprofen 400mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:45.604Z"
+    },
+    {
+      "id": "ACT-06673740",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-012",
+      "description": "Updated Amoxicillin 250mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T21:57:45.683Z"
+    },
+    {
+      "id": "ACT-fb2562a3",
+      "action": "receive",
+      "entity_type": "purchase_order",
+      "entity_id": "ORD-032",
+      "description": "Purchase order received: PO-2026-032",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T22:03:42.707Z"
+    },
+    {
+      "id": "ACT-df60bc3e",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-010",
+      "description": "Updated Amoxicillin 250mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T22:03:43.446Z"
+    },
+    {
+      "id": "ACT-a35479d2",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-041",
+      "description": "Updated Amoxicillin 500mg Tablets quantity",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T22:03:43.510Z"
+    },
+    {
+      "id": "ACT-5d0945ef",
+      "action": "receive",
+      "entity_type": "purchase_order",
+      "entity_id": "ORD-030",
+      "description": "Purchase order received: PO-2026-030",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T22:07:50.729Z"
+    },
+    {
+      "id": "ACT-be665bd7",
+      "action": "receive",
+      "entity_type": "purchase_order",
+      "entity_id": "ORD-033",
+      "description": "Purchase order received: PO-2026-033",
+      "user_id": "USR-7b8d9c0e",
+      "timestamp": "2026-03-29T22:09:59.727Z"
+    },
+    {
+      "id": "ACT-28f8e764",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-002",
+      "description": "Updated product: Hydrocortisone 1% Cream",
+      "user_id": "USR-2f6a4b8e",
+      "timestamp": "2026-03-29T22:40:34.920Z"
+    },
+    {
+      "id": "ACT-6abe10b6",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-008",
+      "description": "Updated product: Ibuprofen 400mg Tablets",
+      "user_id": "USR-2f6a4b8e",
+      "timestamp": "2026-03-29T22:47:34.788Z"
+    },
+    {
+      "id": "ACT-541f9b6c",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-006",
+      "description": "Updated product: Zinc 25mg Tablets",
+      "user_id": "USR-2f6a4b8e",
+      "timestamp": "2026-03-29T22:48:49.734Z"
+    },
+    {
+      "id": "ACT-72810619",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-006",
+      "description": "Updated product: Zinc 25mg Tablets",
+      "user_id": "USR-2f6a4b8e",
+      "timestamp": "2026-03-29T22:49:14.839Z"
+    },
+    {
+      "id": "ACT-5191a819",
+      "action": "receive",
+      "entity_type": "purchase_order",
+      "entity_id": "ORD-008",
+      "description": "Purchase order received: PO-2026-008",
+      "user_id": "USR-2f6a4b8e",
+      "timestamp": "2026-03-29T22:52:06.805Z"
+    },
+    {
+      "id": "ACT-8b1840a9",
+      "action": "receive",
+      "entity_type": "purchase_order",
+      "entity_id": "ORD-034",
+      "description": "Purchase order received: PO-2026-034",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T22:53:18.409Z"
+    },
+    {
+      "id": "ACT-3eb11073",
+      "action": "create",
+      "entity_type": "product",
+      "entity_id": "PRD-da46657f",
+      "description": "Added new product: Tears",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T22:56:16.523Z"
+    },
+    {
+      "id": "ACT-66aa7b01",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-da46657f",
+      "description": "Updated product: Tears",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T22:56:31.139Z"
+    },
+    {
+      "id": "ACT-36b7cd4c",
+      "action": "delete",
+      "entity_type": "product",
+      "entity_id": "PRD-002",
+      "description": "Deleted discontinued product: Old Hydrocortisone 1% Cream Modal",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T22:56:51.870Z"
+    },
+    {
+      "id": "ACT-a5d5b9ad",
+      "action": "create",
+      "entity_type": "category",
+      "entity_id": "CAT-1894e046",
+      "description": "Added new category: Gel",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T22:57:18.961Z"
+    },
+    {
+      "id": "ACT-1866d6f1",
+      "action": "update",
+      "entity_type": "category",
+      "entity_id": "CAT-1894e046",
+      "description": "Updated Gel category data",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T22:57:30.365Z"
+    },
+    {
+      "id": "ACT-40a0a33b",
+      "action": "delete",
+      "entity_type": "category",
+      "entity_id": "CAT-1894e046",
+      "description": "Deleted obsolete category: Gel (no products)",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T22:57:34.575Z"
+    },
+    {
+      "id": "ACT-3375a301",
+      "action": "create",
+      "entity_type": "supplier",
+      "entity_id": "SUP-86d713c0",
+      "description": "Added new supplier: Clepatra",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T22:58:24.669Z"
+    },
+    {
+      "id": "ACT-9f3cb497",
+      "action": "update",
+      "entity_type": "supplier",
+      "entity_id": "SUP-86d713c0",
+      "description": "Updated Clepatra supplier data",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T22:58:39.929Z"
+    },
+    {
+      "id": "ACT-fbb9a749",
+      "action": "receive",
+      "entity_type": "purchase_order",
+      "entity_id": "ORD-027",
+      "description": "Purchase order received: PO-2026-027",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T22:59:16.371Z"
+    },
+    {
+      "id": "ACT-bad535b8",
+      "action": "create",
+      "entity_type": "stock_adjustment",
+      "entity_id": "STK-1e1c26bb",
+      "description": "Adjusted stock for Tears : increase by 20 units. Reason: aa",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:00:08.438Z"
+    },
+    {
+      "id": "ACT-c47b4d54",
+      "action": "create",
+      "entity_type": "purchase_order",
+      "description": "Created purchase order PO-2026-051",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:16:56.598Z"
+    },
+    {
+      "id": "ACT-1e45646e",
+      "action": "create",
+      "entity_type": "product",
+      "entity_id": "PRD-e4e88026",
+      "description": "Added new product: Tear",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:18:28.682Z"
+    },
+    {
+      "id": "ACT-8f223593",
+      "action": "update",
+      "entity_type": "product",
+      "entity_id": "PRD-003",
+      "description": "Updated product: Artificial Tears 0.5% Eye Drops",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:19:02.754Z"
+    },
+    {
+      "id": "ACT-9d6e52ce",
+      "action": "delete",
+      "entity_type": "product",
+      "entity_id": "PRD-001",
+      "description": "Deleted discontinued product: Old Artificial Tears 0.5% Eye Drops Modal",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:19:16.163Z"
+    },
+    {
+      "id": "ACT-3172638d",
+      "action": "create",
+      "entity_type": "category",
+      "entity_id": "CAT-0a9454e2",
+      "description": "Added new category: Gel",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:19:39.069Z"
+    },
+    {
+      "id": "ACT-d40d71d7",
+      "action": "update",
+      "entity_type": "category",
+      "entity_id": "CAT-0a9454e2",
+      "description": "Updated Gel category data",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:19:44.590Z"
+    },
+    {
+      "id": "ACT-82c12290",
+      "action": "delete",
+      "entity_type": "category",
+      "entity_id": "CAT-0a9454e2",
+      "description": "Deleted obsolete category: Gel (no products)",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:19:48.104Z"
+    },
+    {
+      "id": "ACT-06d09cb0",
+      "action": "delete",
+      "entity_type": "supplier",
+      "entity_id": "SUP-040",
+      "description": "Removed inactive supplier: Old Supplier",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:20:00.042Z"
+    },
+    {
+      "id": "ACT-bd5b9a7e",
+      "action": "update",
+      "entity_type": "supplier",
+      "entity_id": "SUP-001",
+      "description": "Updated Cleopatra Pharma supplier data",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:20:13.949Z"
+    },
+    {
+      "id": "ACT-96b63fbb",
+      "action": "create",
+      "entity_type": "purchase_order",
+      "description": "Created purchase order PO-2026-052",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:20:50.299Z"
+    },
+    {
+      "id": "ACT-cfa628b9",
+      "action": "receive",
+      "entity_type": "purchase_order",
+      "entity_id": "vjc8A-2",
+      "description": "Purchase order received: PO-2026-052",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:21:03.714Z"
+    },
+    {
+      "id": "ACT-67daca7e",
+      "action": "update",
+      "entity_type": "stock_adjustment",
+      "entity_id": "STK-1e1c26bb",
+      "description": "Adjusted stock for Tears : increase by 20 units. Reason: aa",
+      "user_id": "USR-8e7b6c4d",
+      "timestamp": "2026-03-29T23:21:26.860Z"
+    }
+  ]
+}
