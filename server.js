@@ -5,6 +5,10 @@ const dbPath = path.join(__dirname, 'server', 'db.json');
 const router = jsonServer.router(dbPath);
 const middlewares = jsonServer.defaults();
 
+server.get('/', (req, res) => {
+  res.json({ status: 'ok', message: 'PharmaFlow API is running' });
+});
+
 server.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', '*');
