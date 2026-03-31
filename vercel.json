@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "**/*",
-      "use": "@vercel/static"
+  "functions": {
+    "api/server.js": {
+      "includeFiles": "server/db.json"
     }
-  ],
-  "routes": [
-    { "src": "/assets/(.*)", "dest": "/assets/$1" },
-    { "src": "/(.*)", "dest": "/$1" }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/server.js" },
+    {
+      "source": "/((?!assets|views|index).*)",
+      "destination": "/api/server.js"
+    },
+    { "source": "/(.*)", "destination": "/$1" }
   ]
 }

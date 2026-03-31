@@ -1,16 +1,15 @@
-const path = require('path');
 const jsonServer = require('json-server');
+const path = require('path');
 const server = jsonServer.create();
-const dbPath = path.join(__dirname, 'server', 'db.json');
-const router = jsonServer.router(dbPath);
+const router = jsonServer.router(path.join(__dirname, '../server/db.json'));
 const middlewares = jsonServer.defaults();
 
-// Health check (مهم جداً لـ Railway)
+// Health check endpoint
 server.get('/', (req, res) => {
-  res.json({ status: 'ok', message: 'API running' });
+  res.json({ status: 'ok', message: 'PharmaFlow API' });
 });
 
-// CORS
+// CORS middleware
 server.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', '*');
@@ -21,7 +20,5 @@ server.use((req, res, next) => {
 server.use(middlewares);
 server.use(router);
 
-const port = process.env.PORT || 3000;
-server.listen(port, () => {
-  console.log(`JSON Server running on port ${port}`);
-});
+// تصدير الدالة لـ Vercel
+module.exports = server;
